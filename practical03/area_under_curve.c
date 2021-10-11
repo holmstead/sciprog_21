@@ -34,41 +34,23 @@ int main(void) {
    printf("\n\tN = %d", N);
    printf("\n\tdelta (b/N) = %f", delta);
 
-   while (tmp <= b) {
-     printf("\t\tx_%i = %f\n", i, tmp);         
-     tmp += delta;
-     i++;
+   for(i=5; i<60; i=i+5){
+      area=area+2*tan((pi*i)/180.0);
+      printf("\tNew area at x%d =%f\n", i/5, area);
+   }
+
+// Multiply with b-a/2N 
+   float mult_rad=pi*((b_deg-a)/(2*N))/180.0;
+   area=mult_rad*area;
+   //Approximated value
+   printf("\nTrapezodial result = %f\n", area);
+
+// Compare the difference with log(2)
+   printf("\n## Part 4 ##\nCompare the difference with log(2).\n");
+   printf("log(2.0) = %f\n", log(2.0));
+   diff = area - log(2.0);
+
+   printf("\nDifference between the answer and log(2) is %f\n", diff);
 
 return 0;
-}
-
-   /*printf("\n## Part 4 ##\n Change the loop so that we add 2tan(xi) for each of the 11 points.\n");
-   var1 = (b-a)/(2*N);
-   printf("\n\tvar1 ( 2tan(xi) ) = %f\n", var1);*/
-
-   /*i=0, tmp = 0.0;
-   /*while (tmp <= b) {
-     printf("\n\t\tx_%i = %f\n", i, tmp);
-     
-     sum2 += 2*tan(tmp);
-     /*printf("\t\tsum2 = %f\n", sum2);*/     
-     tmp += delta;
-     /*printf("\t\ttmp = %f\n", tmp);*/
-     tmp2 = tmp + sum2;
-     /*printf("\t\ttmp2 = %f\n", tmp2);
-
-     i++; 
-   } */
-
-   sum3 = (tmp2) * var1;
-
-/* Compare the difference with log(2) */
-   /*printf("\n## Part 4 ##\n Compare the difference with log(2).\n");
-   printf("\n final answer = %f\n", sum3);
-   log2 = log10(2);
-   printf(" log(2) = %f\n", log2);
-   diff = sum3 - log2;*/
-
-   /*printf("\n Difference between the answer and log(2) is %f\n", diff);*/
-   
 }
