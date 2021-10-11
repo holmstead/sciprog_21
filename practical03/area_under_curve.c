@@ -4,19 +4,24 @@
 
 int main(void) {
 
-/* Declare variables */
+// Declare variables
    int i, N;
-   float a, b_deg, sum1, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
+   float a, b, b_deg, sum1, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
 
-/* Initialise variables */
+// Initialise variables
    pi = M_PI;
    a = 0.0;
    b = pi/3;
    b_deg = 60.0;
 
-   printf("\n## Part 1 ##\n Declaring limits.\n");
-   printf("\n\ta = %d\n", a);
-   printf("\tb (pi/3) = %f\n", b);
+   printf("\n## Part 1 ##\nDeclaring limits.");
+   printf("\n\ta = %f", a);
+   printf("\n\tb (pi/3) = %f", b);
+
+//Convert pi/3 to radians
+   float b_rad;
+   b_rad=(M_PI * b_deg)/180.0;
+   printf("\n\npi/3 in Radians = %f\n", b_rad);
 
 /* First sum */
    printf("\n## Part 2 ##\n Get the sum of (tan(x) from 0 to pi/3).\n");
