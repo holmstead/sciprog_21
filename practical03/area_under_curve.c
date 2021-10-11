@@ -5,13 +5,14 @@
 int main(void) {
 
 /* Declare variables */
-   int i, a, N;
-   float b, sum1, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
+   int i, N;
+   float a, b_deg, sum1, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
 
 /* Initialise variables */
    pi = M_PI;
-   a = 0;
+   a = 0.0;
    b = pi/3;
+   b_deg = 60.0;
 
    printf("\n## Part 1 ##\n Declaring limits.\n");
    printf("\n\ta = %d\n", a);
@@ -33,6 +34,8 @@ int main(void) {
      printf("\t\tx_%i = %f\n", i, tmp);         
      tmp += delta;
      i++;
+
+   return 0;
   }
 
    /*printf("\n## Part 4 ##\n Change the loop so that we add 2tan(xi) for each of the 11 points.\n");
