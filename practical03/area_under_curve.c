@@ -6,7 +6,7 @@ int main(void) {
 
 // Declare variables
    int i, N;
-   float a, b, b_deg, sum1, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
+   float a, b, b_deg, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
 
 // Initialise variables
    pi = M_PI;
@@ -14,34 +14,33 @@ int main(void) {
    b = pi/3;
    b_deg = 60.0;
 
-   printf("\n## Part 1 ##\nDeclaring limits.");
+   printf("\n## Part 1 ##\nDeclaring limits:");
    printf("\n\ta = %f", a);
-   printf("\n\tb (pi/3) = %f", b);
+   printf("\n\tb (pi/3) = %f\n", b);
 
 //Convert pi/3 to radians
-   float b_rad;
-   b_rad=(M_PI * b_deg)/180.0;
-   printf("\n\npi/3 in Radians = %f\n", b_rad);
+//   float b_rad;
+//   b_rad=(M_PI * b_deg)/180.0;
+//   printf("\n\npi/3 in Radians = %f\n", b_rad);
 
-/* First sum */
-   printf("\n## Part 2 ##\n Get the sum of (tan(x) from 0 to pi/3).\n");
-   sum1 = tan(a) + tan(b);
-   printf("\n\tsum1 (tan(x) from 0 to pi/3) = %f\n", sum1);
+// First sum
+   printf("\n## Part 2 ##\nGet the sum of (tan(x) from 0 to pi/3):");
+   float area = tan(a) + tan(b);
+   printf("\n\tarea (tan(x) from 0 to pi/3) = %f\n", area);
 
-/* Generate 11 eqidistant points */
-   printf("\n## Part 3 ##\n Create a loop that generates 11 equidistant points between 0 to pi/3.\n");
+// Generate 11 eqidistant points
+   printf("\n## Part 3 ##\nCreate a loop that generates 11 equidistant points between 0 to pi/3:");
    i = 0; N = 12, tmp = 0.0, sum2 = 0.0; delta = b/N;
    printf("\n\tN = %d", N);
    printf("\n\tdelta (b/N) = %f", delta);
-   printf("\n\n");
 
    while (tmp <= b) {
      printf("\t\tx_%i = %f\n", i, tmp);         
      tmp += delta;
      i++;
 
-   return 0;
-  }
+return 0;
+}
 
    /*printf("\n## Part 4 ##\n Change the loop so that we add 2tan(xi) for each of the 11 points.\n");
    var1 = (b-a)/(2*N);
