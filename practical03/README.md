@@ -1,3 +1,3 @@
-This is practical 3 codes:
-	1. printing
-	2. trapezoidal rules
+This directory contains code for practical 3 using the Trapezoidal rule:
+	1. area_under_curve.c
+	2. area_under_curve.f90
