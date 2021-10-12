@@ -16,9 +16,18 @@ program Trap
 
       ! 2*f(x1)+ ... + 2*f(xN-1)
       do i=5, 55, 5
-            area=area+2*tan((pi*i)/180.0)
+            area = area+2*tan((pi*i)/180.0)
             write(6, *) 'New area at x', i/5, '=', area
       end do
+
+      ! Multiply with b-a/2N
+      mult_rad = pi*((b_deg-a)/(2*N))/180.0
+      area = mult_rad*area
+
+      ! Approximated result
+      write(6, *) 'Trapezoidal result', area
+      ! Real result
+      write(6, *) 'Real result', log(2.0)
 
       stop
 end program
