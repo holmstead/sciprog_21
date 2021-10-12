@@ -14,5 +14,11 @@ program Trap
       area=tan(a)+tan(b_rad)
       write(6, *) 'Initial area', area
 
+      ! 2*f(x1)+ ... + 2*f(xN-1)
+      do i=5, 55, 5
+            area=area+2*tan((pi*i)/180.0)
+            write(6, *) 'New area at x', i/5, '=', area
+      end do
+
       stop
 end program
