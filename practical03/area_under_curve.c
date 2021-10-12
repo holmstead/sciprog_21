@@ -6,7 +6,7 @@ int main(void) {
 
 // Declare variables
    int i, N;
-   float a, b, b_deg, sum2, sum3, pi, delta, tmp, tmp2, var1, var2, var3, diff, log2;
+   float a, b, b_deg, pi, diff;
 
 // Initialise variables
    pi = M_PI;
@@ -30,9 +30,8 @@ int main(void) {
 
 // Generate 11 eqidistant points
    printf("\n## Part 3 ##\nCreate a loop that generates 11 equidistant points between 0 to pi/3:");
-   i = 0; N = 12, tmp = 0.0, sum2 = 0.0; delta = b/N;
+   i = 0; N = 12;
    printf("\n\tN = %d", N);
-   printf("\n\tdelta (b/N) = %f", delta);
 
    for(i=5; i<60; i=i+5){
       area=area+2*tan((pi*i)/180.0);
@@ -50,7 +49,7 @@ int main(void) {
    printf("log(2.0) = %f\n", log(2.0));
    diff = area - log(2.0);
 
-   printf("\nDifference between the answer and log(2) is %f\n", diff);
+   printf("\nDifference between the Trapezoidal result and log(2) is %f\n", diff);
 
 return 0;
 }
