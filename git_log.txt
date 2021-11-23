@@ -1,0 +1,359 @@
+commit 4cd0d3b05cf72b10f25deaa9656f4d8e87b051e1
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 19:12:34 2021 +0000
+
+    added hanoi.f90
+
+commit 69b12b2af1b30b39c151fd4afd382ba16b364588
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 19:04:30 2021 +0000
+
+    added hanoi.c
+
+commit 0a9ebf6ea9cf0e4824e6d70b457b398934045ec5
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 15:20:57 2021 +0000
+
+    updated magicsquare_fileinput.f90
+
+commit cb3fab6a6edcd40850985746fc03608a7f7d1f31
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 13:21:49 2021 +0000
+
+    updated magicsquare_fileinput.c
+
+commit 37552336939f2db27c51364a793d5104cba93a3d
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 12:58:55 2021 +0000
+
+    updated magicsquare_userinput.f90
+
+commit 569cb84cacf3dc8fbc28cd123dda785c91d06f37
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 12:48:41 2021 +0000
+
+    added magicsquare_fileinput.f90
+
+commit d52081d36fc922e4cb2927ee710f17cdc7876de4
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 12:48:34 2021 +0000
+
+    added magicsquare_fileinput.c
+
+commit 601a0c064ca6fbe538ccc7f489322e8d9e680940
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 12:48:15 2021 +0000
+
+    added magicsquare_userinput.f90
+
+commit a04931fb0e03a58862b8719e3ed39fbdc668d2ac
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Nov 23 12:47:57 2021 +0000
+
+    added magicsquare_userinput.c
+
+commit 37aa4344752532da8bdce1cb60041d6d6b839190
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Nov 22 23:35:21 2021 +0000
+
+    added
+
+commit 202d6ca85490dd09a87dbc15ac1828b92b8981c2
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Nov 22 23:35:06 2021 +0000
+
+    added
+
+commit 3468bbbce503e7a1441577b64914985cb10a54c6
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 19 10:50:12 2021 +0000
+
+    updated README file
+
+commit ccc3d89d142e1b4c92f41e9624ee5c939936dd4e
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 19 10:45:10 2021 +0000
+
+    added code for allocating an array in FORTRAN
+
+commit 4b2bdaa6c8816a22cc70de328f5b5cd954dc76d9
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Thu Nov 18 22:27:22 2021 +0000
+
+    new code for allocating arrays
+
+commit 55b8044507492750b73e7a3c2c4f9d5b73f0e1f8
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 12:35:12 2021 +0000
+
+    added polynomial.f90
+
+commit 6c8e1551fb3f31fe5b8e57da798e807417cf7b7d
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 12:13:48 2021 +0000
+
+    added README file for practical 7
+
+commit ebdae06c3aa9e25ed0e933ebea343c56440d15d9
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 12:12:26 2021 +0000
+
+    updated README file for practical 4
+
+commit c4ca9989d6f1e0d32fb4694728298d418a3b4333
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 12:10:22 2021 +0000
+
+    added README file for practical 5
+
+commit 56af9dcbbb3f539b33fa9206d5f3b8713735fc32
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 12:09:07 2021 +0000
+
+    added README file for practical 6
+
+commit f588c7d25a3d0311e40d757ba6b91870e542fb0f
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 12:03:56 2021 +0000
+
+    added polynomial.c
+
+commit 13b31090ee07cbd9cf22767409b88a39ed251e72
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 11:06:33 2021 +0000
+
+    added makefile for compiling mulitple C files for the matrix multiplier
+
+commit b03c097e1a355e6f71ea9ebf4bcd4d2aff4142c4
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 11:05:39 2021 +0000
+
+    added main.c
+
+commit 23f3e9158a2150e485323050a642d9873d6387c4
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 11:04:03 2021 +0000
+
+    added main.c
+
+commit 2673edc5e9d8360f022a2fef8004302d62482e6c
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 11:03:19 2021 +0000
+
+    added mm.f90
+
+commit f6469c71fb4170a41c12bc34d73c46f6d3d69eea
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 11:02:56 2021 +0000
+
+    added main.f90
+
+commit 8d9c3b86b0e42d0eda0ddeb311821f32ec725b02
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Nov 12 11:02:01 2021 +0000
+
+    added Makefile for compiling Fortran code in step 6
+
+commit 43223807cd0aed9d0a3d7aea631e946ac74157a4
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Thu Nov 11 15:25:07 2021 +0000
+
+    added matrix multiplier written in Fortran (matrixmult.f90)
+
+commit 7cf8f456957d662da95dab843d7fbd3eb685f054
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Thu Nov 11 15:24:47 2021 +0000
+
+    added matrix multiplier written in C (matrixmult.c)
+
+commit 16b814e53a80ec54ab3a0e76c31e217e4d6cdbdf
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 19 19:35:40 2021 +0100
+
+    added caluclation section to calclate Fibonacci sequence
+
+commit 8dcb8d844193d3cac1991c47891004a99944ea1b
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 19 19:32:13 2021 +0100
+
+    added arctan.c; added calulation to Fibonacci.c
+
+commit 5240c89c2e4cad80c342046592a9142508c4b5ce
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 15:28:01 2021 +0100
+
+    added blank README file
+
+commit 9e269f0121c49e3671e93f9ee16c2c9fcb9221f9
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 15:26:17 2021 +0100
+
+    added fortran version of trapezoidal_v2
+
+commit 6068ab356b0989c5046b6f0caad13492c1972463
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 15:23:56 2021 +0100
+
+    updated to include trapezoidal approximation and real result using ln(2)
+
+commit 6b162ac385770fd8bf68b6669f72d0cebde88ea9
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 12:46:59 2021 +0100
+
+    added Fibonacci.c with user input function
+
+commit 4f7ec9e1061cab6d282091a029fec61ad51d808e
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 12:41:13 2021 +0100
+
+    removed superfluous variables
+
+commit 393b6be2e5eef0921eb43bb7d4a422b7e965e7e4
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 12:36:24 2021 +0100
+
+    added trapezoidal_rule.c with function to convert degrees to radians
+
+commit de49328a2122c5ca2167ee1a2986b4432d48e9a0
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 12:19:02 2021 +0100
+
+    updated README file
+
+commit 4a41f8d21ebfaa6bd9b13d1b4202a12b90293224
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 12:01:03 2021 +0100
+
+    added comparison between approx result and log(2.0)
+
+commit 968d0a960ac416df5eb04b811801784ff524a523
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 11:53:15 2021 +0100
+
+    added new area sum using a 'do' function
+
+commit b243268033e5ecda75614addd571c05e232293a2
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 11:47:25 2021 +0100
+
+    added initial area sum
+
+commit 3c6ca9ce5d796f8553b4de83e35a30a9d86a35a5
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Tue Oct 12 00:37:47 2021 +0100
+
+    added Fortran version of Trapezoidal code
+
+commit 146615a90424c5fdbc37d1354efb6f5bd949901c
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 17:01:52 2021 +0100
+
+    added 'for' statement generating equidistant points; added comparison with log(2.0)
+
+commit a11d47142262e46d2807918a686d839302370d16
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 16:38:54 2021 +0100
+
+    tidied up comments and syntax
+
+commit 787443e0cf782931d5b0d1f58bc55b7b49324a96
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 16:25:41 2021 +0100
+
+    added section to convert pi/3 to Radians
+
+commit a1281c91aa987aec9b2f0d3e21b107bd8bdde4b0
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 16:13:02 2021 +0100
+
+    created new directory for practical 4
+
+commit ea0b85c60b7fb09aac528e112df0c71a8519709f
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 16:11:14 2021 +0100
+
+    deleted README.md from main directory
+
+commit a6a9d97d9e2a72b757532f1b307bfd1d58a0d272
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 16:08:45 2021 +0100
+
+    modified variables in area_under_curve.c
+
+commit c9d727f7f9c0e5b696b2f3ac5f8caa06d03b497f
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 15:53:35 2021 +0100
+
+    deleted compiled version of 'Conversion_C' from git repository
+
+commit 89195e9ac20539d16561346f1ddc95558bf02e0e
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 15:50:09 2021 +0100
+
+    deleted compiled version of 'area_under_curve' from git repository
+
+commit 13cc298b3d469d532d4561456dde207c4d4c3945
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 13:14:10 2021 +0100
+
+    deleted file Conversion.f90 from git repository
+
+commit fece47bd263820e3dc158e09323b69cbce5a075f
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 13:13:03 2021 +0100
+
+    Deleted file Conversion.c from git repository
+
+commit a0aae2fd33943daa458cb3f73fd70f2370552d8d
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 13:08:49 2021 +0100
+
+    added new directory (practical03) containing Trapezoidal rule code from practical 3
+
+commit 5623d77ab3ca5f996647e0bfefd0dff2a59c920c
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Mon Oct 11 13:06:50 2021 +0100
+
+    added new directory (practical02) containing conversion and sum codes from practical 2
+
+commit a65c067d6d39904c530c9b9d6e0c87c220493c6f
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Oct 1 23:04:50 2021 +0100
+
+    added Conversion.f90 (practical 2)
+
+commit 8af5ef6b5339f7a0cbdef594447d4299bf1a7485
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Oct 1 23:02:41 2021 +0100
+
+    added Conversion.c (practical 2)
+
+commit 54c3cf1e07e56c8f23de31580498a4c3ae4b1e44
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Oct 1 19:08:49 2021 +0100
+
+    deleted file first commit from the git repo
+
+commit b93bfcac83de59e90336ae996206f1e28aa38a8a
+Author: holmstead <mat.holmes@outlook.com>
+Date:   Fri Oct 1 18:51:27 2021 +0100
+
+    added working version of practical 2 (written in C) for first commit, parts 1-3 complete
+
+commit bba58bbcf7731617d0b60fa57fc48a1c054e2f08
+Author: cilwerner <59959532+cilwerner@users.noreply.github.com>
+Date:   Tue Sep 28 08:58:29 2021 +0100
+
+    Updated formatting errors
+
+commit 4a18ed3e12f84ae309605d2f7862ec60750dedaa
+Author: cilwerner <59959532+cilwerner@users.noreply.github.com>
+Date:   Tue Sep 28 08:57:59 2021 +0100
+
+    Filled README.md with full instructions
+
+commit 312a9b3083fa3e5de0bb35276d886acf9d385dfb
+Author: cilwerner <59959532+cilwerner@users.noreply.github.com>
+Date:   Mon Sep 27 11:59:24 2021 +0100
+
+    Initial commit
